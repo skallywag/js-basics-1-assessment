@@ -40,17 +40,13 @@ function bigOrSmall(arr){
   let answers = []
     for (i = 0; i < arr.length; i++){
       if (arr[i] > 100){
-        answers.push('big')
-      }else if (arr[i] <= 100){
-        answers.push('small')
-      }
-    }
-    bigOrSmall([10,100,500])
-
-
-
-
-
-
-    }
-    bigOrSmall()
+          answers.push('big')
+      }else if(arr[i] <= 100){
+          answers.push('small')
+      } 
+    }return answers
+}
+bigOrSmall([80, 120, 100, 500, 800, 19])
+   
+   
+ 
