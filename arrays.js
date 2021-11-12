@@ -35,17 +35,20 @@ let middleNums = []
 */
 
 // CODE HERE
-let arrNum = [99, 120, 88, 500, 21, 18, 160] ///Will come back. Moving on
 
 function bigOrSmall(arr){
   let answers = []
-    for(let i = 0; i < arrNum.length; i++){
-      if (arrNum[i] > 100){
-        answers = arrNum.push('big')
-          return answers
-      }else if (arrNum[i] <= 100){
-        answers = arrNum.push('small')
-      }
+    for (i = 0; i < arr.length; i++){
+      if (arr[i] > 100){
+        return answers = arr.push('big')
       }
     }
-    bigOrSmall(arrNum)
+    bigOrSmall([10,100,500])
+
+
+
+
+
+
+    }
+    bigOrSmall()
