@@ -10,9 +10,7 @@ const reader = readline.createInterface({
 reader.question("Please validate your password!", function(input){
 //-----It seems to be working but i feel like i still did this wrong?
 
-    let validPass = input.length
-
-        if(validPass <= 10){
+        if(input.length <= 10){
             console.log('Success!');
         }else{
             console.log('Password failed');
