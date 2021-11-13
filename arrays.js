@@ -19,7 +19,7 @@ faveColorCopy.push('purple')
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = []
+let middleNums = numbers.splice(1, 3)
 
 //////////////////PROBLEM 4////////////////////
 /* 
